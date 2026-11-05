@@ -6,6 +6,14 @@ accionado por 4 servos MG996R + 1 micro servo SG90.
 
 ![Brazo robótico reparado en Fusion 360](docs/render_ensamble.png)
 
+## Video: alzando un cubo de 20 mm
+
+![Brazo alzando un cubo rojo](docs/brazo_alza_cubo.gif)
+
+Secuencia de 12 cuadros generada con la API de Fusion 360 sobre una
+copia del ensamble: hombro +12° y muñeca −6° con interpolación suave
+(ida, pausa y regreso; el cubo viaja solidario a la garra).
+
 ## Estado
 
 Ensamblaje funcional y verificado pieza por pieza desde la API de Fusion:
@@ -24,6 +32,7 @@ brazo-robotico/
 └── docs/
     ├── render_ensamble.png  # vista del ensamble completo
     ├── despiece_piezas.png  # hoja de contacto de las piezas
+    ├── brazo_alza_cubo.gif  # video: el brazo alza un cubo rojo
     └── BOM.md               # lista de materiales con medidas reales
 ```
 
