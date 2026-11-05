@@ -4,6 +4,8 @@ Brazo robótico de sobremesa diseñado en **Fusion 360**: base giratoria,
 hombro y codo en paralelogramo, muñeca y garra de dos dedos,
 accionado por 4 servos MG996R + 1 micro servo SG90.
 
+![Brazo robótico reparado en Fusion 360](docs/render_ensamble.png)
+
 ## Estado
 
 Ensamblaje funcional y verificado pieza por pieza desde la API de Fusion:
@@ -29,6 +31,10 @@ brazo-robotico/
 
 - **Fusion 360:** abre `CAD/BrazoRobotico.f3d` (Archivo → Abrir).
 - **Cualquier CAD:** importa `CAD/BrazoRobotico.step`.
+
+## Despiece
+
+![Hoja de contacto de las 19 piezas del brazo](docs/despiece_piezas.png)
 
 ## Cadena cinemática
 
